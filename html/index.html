@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EJERCICIO 1_JAVASCRIPT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/main.css">
+  <script defer src="/javascript/EJERCICIO1.js"></script>
+</head>
+<body>
+  <main class="container bg-white rounded my-5">
+    <section class="container py-4">
+      <h3>¿ERES BELLO?</h3>
+      <select class="form-select" aria-label="Default select example" id="bello">
+        <option selected>Open this select menu</option>
+        <option>Si</option>
+        <option>No</option>
+      </select>
+      <h3 id="respuesta"></h3>
+    </section>
+
+    <section class="container py-4">
+      <label for="input1" class="form-label">Ingresa un numero para saber si es divisible entre 2</label>
+      <input type="number" class="form-control" id="input1" placeholder="ingresa un numero">
+      <button type="button" class="btn btn-primary my-2" id="numeroentre2">Ingresar número</button>
+      <h3 id="respuesta2" class="my-2"></h3>
+    </section>
+
+    <section class="container py-4">
+      <label for="input2" class="form-label">QUieres saber si tu número es par?</label>
+      <input type="number" class="form-control" id="input2" placeholder="ingresa un numero">
+      <button type="button" class="btn btn-primary my-2" id="par">¿Es par?</button>
+    </section>
+  </main>
+</body>
+</html>
