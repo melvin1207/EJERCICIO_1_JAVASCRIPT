@@ -12,7 +12,7 @@
 <body>
   <main class="container bg-white rounded my-5">
     <section class="container py-4">
-      <h3>¿ERES BELLO?</h3>
+      <h3>1. ¿ERES BELLO?</h3>
       <select class="form-select" aria-label="Default select example" id="bello">
         <option selected>Open this select menu</option>
         <option>Si</option>
@@ -22,16 +22,108 @@
     </section>
 
     <section class="container py-4">
-      <label for="input1" class="form-label">Ingresa un numero para saber si es divisible entre 2</label>
+      <label for="input1" class="form-label"> 2. Ingresa un numero para saber si es divisible entre 2</label>
       <input type="number" class="form-control" id="input1" placeholder="ingresa un numero">
       <button type="button" class="btn btn-primary my-2" id="numeroentre2">Ingresar número</button>
       <h3 id="respuesta2" class="my-2"></h3>
     </section>
 
     <section class="container py-4">
-      <label for="input2" class="form-label">QUieres saber si tu número es par?</label>
+      <label for="input2" class="form-label">3. Quieres saber si tu número es par?</label>
       <input type="number" class="form-control" id="input2" placeholder="ingresa un numero">
       <button type="button" class="btn btn-primary my-2" id="par">¿Es par?</button>
+    </section>
+
+    <section class="container py-4">
+      <label for="input3" class="form-label">4. Ingresa tu nùmero de cliente para saber si ganaste</label>
+      <input type="number" class="form-control" id="input3" placeholder="ingresa un numero">
+      <button type="button" class="btn btn-primary my-2" id="cliente">¿soy ganador?</button>
+      <h3 id="respuesta3" class="my-2"></h3>
+    </section>
+
+    <section class="container py-4">
+      <label for="input45" class="form-label">5. Por favor ingresa 2 números para saber cual es el mayor</label>
+      <div class="row">
+        <input type="number" class="form-control m-1 col" id="input4" placeholder="ingresa un numero">
+        <input type="number" class="form-control m-1 col" id="input5" placeholder="ingresa un numero">
+      </div>
+      <button type="button" class="btn btn-primary my-2" id="mayor2">¿Cual es el mayor?</button>
+      <h3 id="respuesta4" class="my-2"></h3>
+    </section>
+
+    <section class="container py-4">
+      <label for="input678" class="form-label">6. Por favor ingresa 3 números para saber cual es el mayor</label>
+      <div class="row">
+        <input type="number" class="form-control m-1 col" id="input6" placeholder="ingresa un numero">
+        <input type="number" class="form-control m-1 col" id="input7" placeholder="ingresa un numero">
+        <input type="number" class="form-control m-1 col" id="input8" placeholder="ingresa un numero">
+      </div>
+      <button type="button" class="btn btn-primary my-2" id="mayor3">¿Cual es el mayor?</button>
+      <h3 id="respuesta5" class="my-2"></h3>
+    </section>
+
+    <section class="container py-4">
+      <h3>7. ¿Qué dia es hoy?</h3>
+      <select class="form-select" aria-label="Default select example" id="dia">
+        <option selected>Open this select menu</option>
+        <option>Lunes</option>
+        <option>Martes</option>
+        <option>Miercoles</option>
+        <option>Jueves</option>
+        <option>Viernes</option>
+        <option>Sabado</option>
+        <option>Domingo</option>
+      </select>
+      <h3 id="respuesta6" class="my-1"></h3>
+    </section>
+
+    <section class="container py-4">
+      <label for="input9" class="form-label">8. Ingresa una calificaciòn entre 1 y 10</label>
+      <input type="number" class="form-control" id="input9" placeholder="ingresa un numero">
+        <button type="button" class="btn btn-primary my-2" id="status">¿Cual es mi status?</button>
+      <h3 id="respuesta7" class="my-2"></h3>
+    </section>
+
+    <section class="container py-4">
+      <label for="input10" class="form-label">9. Ingresa el topping que quieres en tu helado</label>
+        <input type="text" class="form-control" id="input10" placeholder="ingresa tu topping">
+        <button type="button" class="btn btn-primary my-2" id="topping">¿Cuanto debo pagar?</button>
+      <h3 id="respuesta8" class="my-2"></h3>
+    </section>
+
+    <section class="container py-4">
+      <h3>10. Curso de programaion</h3>
+      <label for="curso" class="form-label">Que curso quiere tomar?</label>
+      <select class="form-select" aria-label="Default select example" id="curso">
+        <option selected>Open this select menu</option>
+        <option>Course</option>
+        <option>Carrera</option>
+        <option>Master</option>
+      </select>
+      <label for="beca" class="form-label">Que beca tiene?</label>
+      <select class="form-select" aria-label="Default select example" id="beca">
+        <option selected>Open this select menu</option>
+        <option>Facebook</option>
+        <option>Google</option>
+        <option>Jesua</option>
+      </select>
+      <button type="button" class="btn btn-primary my-2" id="pago">¿Cuanto debo pagar?</button>
+      <h3 id="respuesta9" class="my-2"></h3>
+    </section>
+
+    <section class="container py-4">
+      <h3>11. Calculo por kilometros recorridos</h3>
+      <label for="transporte" class="form-label">Que transporte uso?</label>
+      <select class="form-select" aria-label="Default select example" id="transporte">
+        <option selected>Open this select menu</option>
+        <option>Auto</option>
+        <option>Moto</option>
+        <option>Autobus</option>
+      </select>
+      <label for="km" class="form-label">Cuantos km recorrio?</label>
+      <input type="number" class="form-control" id="km" placeholder="ingresa los km">
+      <button type="button" class="btn btn-primary my-2" id="pagar">¿Cuanto debo pagar?</button>
+      <h3 id="respuesta10" class="my-2"></h3>
     </section>
   </main>
 </body>
